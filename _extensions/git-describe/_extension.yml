@@ -1,0 +1,8 @@
+title: Git-describe
+author: Daniel Smit (HAW)
+version: 1.0.0
+quarto-required: ">=1.2.0"
+contributes:
+  shortcodes:
+    - git-describe.lua
+
