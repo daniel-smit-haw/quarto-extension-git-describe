@@ -1,6 +1,6 @@
 # Git-describe Extension For Quarto
 
-This shortcode runs [`git describe`](https://git-scm.com/docs/git-describe) and returns the output. 
+This shortcode runs [`git describe --dirty`](https://git-scm.com/docs/git-describe) and returns the output. 
 
 ## Installing
 
@@ -18,6 +18,7 @@ If you're using version control, you will want to check in this directory.
 Add the shortcode `{{{< git-describe >}}}` to your quarto files.
 
 Note that `git describe` itself will only produce an output if a suitable ref is available.
+The option `--dirty` will append a `-dirty` to the description if the working tree has local modifications see [the documentation](https://git-scm.com/docs/git-describe#Documentation/git-describe.txt---dirtyltmarkgt). 
 
 ## Example
 

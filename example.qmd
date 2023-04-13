@@ -5,7 +5,7 @@ title: "Git-describe Example"
 ## Usage
 
 Use the shortcode `{{{< git-describe >}}}`
-to get the output from `git describe`.
+to get the output from `git describe --dirty`.
 
 ### Example
 

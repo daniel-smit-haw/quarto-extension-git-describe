@@ -18,7 +18,7 @@ end
 return {
   ["git-describe"] = function(args, kwargs)
     -- run the command
-    local cmd = "describe"
+    local cmd = "describe --dirty"
     local rev = git(cmd)
     
     -- return as string
