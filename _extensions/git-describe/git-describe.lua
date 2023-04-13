@@ -8,7 +8,7 @@ function git(command)
     p:close()
     return output
   else
-    return pandoc.Null
+    return pandoc.Null()
   end
 end
 
